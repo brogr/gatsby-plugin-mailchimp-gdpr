@@ -60,7 +60,12 @@ var convertListFields = function convertListFields(fields) {
         if (Object.prototype.hasOwnProperty.call(fields, field)) {
             // If this is a list group, not user field then keep lowercase, as per MC reqs
             // https://github.com/benjaminhoffman/gatsby-plugin-mailchimp/blob/master/README.md#groups
-            var fieldTransformed = field.substring(0, 6) === 'group[' ? field : field.toUpperCase();
+            var fieldTransformed = field;
+
+            if (field.substring(0, 6) !== 'group[' && field.substring(0, 5) !== 'gdpr[') {
+                fieldTransformed = fieldTransformed.toUpperCase();
+            }
+
             queryParams = queryParams.concat(
                 '&'.concat(fieldTransformed, '=').concat(fields[field]),
             );
