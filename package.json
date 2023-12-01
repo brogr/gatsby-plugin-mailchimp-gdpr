@@ -1,11 +1,11 @@
 {
     "name": "gatsby-plugin-mailchimp",
     "author": "Benjamin Hoffman <6520022+benjaminhoffman@users.noreply.github.com>",
-    "version": "5.2.2",
+    "version": "5.2.3",
     "description": "A simple, lightweight Gatsby plugin to subscribe email addresses to your Mailchimp list",
     "main": "index.js",
     "license": "MIT",
-    "homepage": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp#readme",
+    "homepage": "https://github.com/brogr/gatsby-plugin-mailchimp-gdpr#readme",
     "bugs": {
         "url": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp/issues"
     },
@@ -18,7 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/benjaminhoffman/gatsby-plugin-mailchimp.git"
+        "url": "https://github.com/brogr/gatsby-plugin-mailchimp-gdpr.git"
     },
     "keywords": [
         "gatsby",

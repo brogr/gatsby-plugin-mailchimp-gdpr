@@ -1,3 +1,6 @@
+## GDPR
+Added GDPR support from https://github.com/benjaminhoffman/gatsby-plugin-mailchimp/pull/81
+
 ## 😞 No longer actively maintained 😞
 _My sincerest apologies but this repo is no longer maintained. You can still use it and most people have reported that it works great, but I am no longer adding features or fixing bugs. Please use at your own risk and keep in mind it likely won't handle corner cases or your specific use case (it's hopefully fine for generic use cases)._ -- Ben (Dec 21, 2021)
 
